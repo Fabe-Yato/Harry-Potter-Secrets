@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Irish Grover', 'cursive';
+    color: #DBDADA;
+    background-color: #1B1B1B;
+}
+.header-banner{
+    margin-top: -15px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../imgs/hogwartscastle.webp');
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+.links-header{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.links-header li{
+    width: 30%;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.links-header a{
+    font-size: 1.3rem; 
+    color: #DBDADA;
+    text-decoration: none;
+}
+.links-header a:hover{
+    color: #838181;
+}
+.header-conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.2%;
+}
+.header-conteudo-principal img{
+    width: 40%;
+}
+.header-boas-vindas{
+    margin-top: -5%;
+    margin-left: 7%;
+}
+.header-boas-vindas h1{
+    font-size: 2rem;
+    margin-left: 26%;
+}
+.header-boas-vindas img{
+    width: 400px;
+    margin-left: 9%;
+}
+.header-boas-vindas p{
+    width: 90%;
+    font-size: 1.6rem;
+}
+.instrucoes-site{
+    padding: 5%;
+}
+.instrucoes-site h1{
+    margin-left: 10%;
+}
+.instrucoes-site p{
+    font-size: 1.8rem;
+    width: 55%;
+}
+.instrucoes-site-conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.instrucoes-site-conteudo img{
+    width: 40%;
+    margin-left: 5%;
+    border-radius: 15px;
+}
